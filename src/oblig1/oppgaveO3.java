@@ -15,7 +15,9 @@ public class oppgaveO3 {
 			fact = fact * i;
 			b = b + (int)i + " * ";
 		}
+		b = b.substring(0,b.length()-3); //fjerner "*" og " " som kommer etter siste tall :)
 		System.out.println(b + "\nn fakultet, der n = " + n + ": " + fact);
+
 	}
 
 }
