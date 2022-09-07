@@ -3,9 +3,7 @@ import java.util.Scanner;
 
 public class oppgaveO1 {
 	private static String twoDigits (double x) {
-		
 		String str = String.format("%.2f", x);
-		
 		return str;
 	}
 	public static void main(String[] args) {
