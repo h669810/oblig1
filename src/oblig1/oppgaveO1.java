@@ -18,7 +18,7 @@ public class oppgaveO1 {
 		else if (bruttolonn < lonn[4]) {skatt = (lonn[1]-1-lonn[0])*sats[1] + (lonn[2]-1 - lonn[1])*sats[2] + (lonn[3]-1 - lonn[2])*sats[3] + (bruttolonn - lonn[3])*sats[4];}
 		else if (bruttolonn >= lonn[4]) {skatt = (lonn[1]-1-lonn[0])*sats[1] + (lonn[2]-1 - lonn[1])*sats[2] + (lonn[3]-1 - lonn[2])*sats[3] + (lonn[4]-1 - lonn[3])*sats[4] + (bruttolonn - lonn[4])*sats[5];}
 		
-		System.out.println("Trinnskatten din blir " + skatt + "kr.");
+		System.out.println("Trinnskatten din blir " + skatt + "kr!");
 	}
 
 }
