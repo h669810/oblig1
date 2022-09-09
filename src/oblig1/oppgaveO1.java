@@ -23,7 +23,4 @@ public class oppgaveO1 {
 		
 		System.out.println("Trinnskatten din blir " + twoDigits(skatt) + "kr!");
 	}
-	
-
-
 }
